@@ -1,3 +1,35 @@
-body {
-
+body{
+  background-color: #DBE6E1;
+}
+h1{
+  font-size: 300%;
+  letter-spacing: 1.5px;
+  text-decoration: underline;
+}
+p{
+  font-size: 210%;
+  letter-spacing: 0.5px;
+  font-family: Monospace;
+}
+img{
+  object-fit: none; 
+  object-position: center; 
+  height: 410px;
+  width: 400px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+    float: left;
+}
+li a{
+  padding: 34px;
+  color: #3A6469;
+  font-family: "Monaco", Monospace;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #2F5575;
+  color: #D8E7E9;
 }
